@@ -17,3 +17,19 @@ a {
   color: black;
   text-decoration: none;
 }
+
+.container {
+  max-width: 1440px;
+}
+
+.header {
+  height: 64px;
+  padding: 20px 16px;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.1), 0px 0.4px 6.5px rgba(0, 0, 0, 0.05);
+}
+
+.main {
+  padding: 0 16px;
+}
+
+
