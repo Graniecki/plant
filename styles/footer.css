@@ -1,0 +1,23 @@
+.footer {
+  padding: 4.5rem 1rem 1rem;
+  text-align: center;
+}
+
+.footer__policy,
+.footer__copyright {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgba(145, 160, 182, 1);
+}
+
+.footer__point {
+  margin-bottom: 0.5rem;
+}
+
+.footer__copyright {
+  margin-top: 1.5rem;
+}
+
+.footer__copyright span {
+  display: block;
+}

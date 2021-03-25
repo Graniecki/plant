@@ -1,0 +1,33 @@
+.offer {
+  background-color: rgba(4, 191, 148, 0.16);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.offer__title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 2.25rem;
+  color: rgba(4, 191, 148, 1);
+}
+
+.offer__description {
+  margin: 1rem 0;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.6875rem;
+  color: rgba(36, 36, 36, 1);
+}
+
+.offer__button {
+  padding: 0.5rem;
+  background-color: rgba(4, 191, 148, 1);
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 1);
+}

@@ -1,3 +1,12 @@
+@import "styles/header.css";
+@import "styles/motion.css";
+@import "styles/search.css";
+@import "styles/new-product.css";
+@import "styles/top-tricks.css";
+@import "styles/interesting.css";
+@import "styles/offer.css";
+@import "styles/footer.css";
+
 html {
   font-size: 16px;
 }
@@ -19,8 +28,19 @@ a {
   text-decoration: none;
 }
 
-/** UI **/
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.main {
+  background-color: #F6F6F6;
+  padding: 0 1rem;
+}
+
 .date {
+  display: block;
+  margin-top: 0.68rem;
   font-size: 1rem;
   line-height: 1.5rem;
   color: rgba(173, 184, 200, 1);
@@ -38,79 +58,9 @@ a {
   line-height: 1.5rem;
   color: rgba(120, 120, 122, 1);
 }
-/** UI **/
 
-.container {
-  max-width: 1440px;
-}
-
-.header {
-  height: 64px;
-  padding: 1.25rem 1rem;
-  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.1), 0px 0.4px 6.5px rgba(0, 0, 0, 0.05);
-}
-
-.main {
-  background-color: #F6F6F6;
-  padding: 0 1rem;
-}
-
-.motion {
-  margin-bottom: 35px;
-}
-
-.search {
-  background-color: rgba(4, 191, 148, 0.16);
-  margin-bottom: 1.375rem;
-  padding: 1rem;
-  border-radius: 1rem;
-}
-
-.search__title,
-.offer__title {
-  font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 2.25rem;
-  color: rgba(4, 191, 148, 1);
-}
-
-.search__tricks,
-.offer__description {
-  margin: 0.75rem 0;
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 1.6875rem;
-  color: rgba(36, 36, 36, 1);
-}
-
-.search__tricks .semi-bold {
-  font-weight: 700;
-}
-
-.search__tricks .bold {
-  font-weight: 800;
-}
-
-.search__input {
-  background: #FFFFFF url(images/mini-search.svg) no-repeat right 0.5rem center;;
-  padding: 0.625rem 1rem;
-  width: 100%;
-  border: none;
-  border-radius: 0.75rem;
-  box-shadow: 0px 0.470434px 2.21381px rgba(0, 0, 0, 0.0196802);
-}
-
-.search__input::placeholder {
-  font-size: 0.875rem;
-  color: rgba(145, 160, 182, 1);
-}
-
-.tricks {
-  padding: 3.25rem 0 1.4375rem;
-  position: relative;
-}
-
-.tricks::after {
+.new-product::after,
+.top-tricks::after {
   content: "";
   width: 100%;
   height: 1px;
@@ -118,115 +68,4 @@ a {
   position: absolute;
   bottom: 0;
   background-color: rgba(196, 196, 196, 1);
-}
-
-.tricks__second {
-  margin-top: 0.625rem;
-}
-
-.new-trick::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 78px;
-  height: 36px;
-  background-image: url(images/label-new.svg);
-}
-
-/* .new-trick::before {
-  content: "New";
-  display: block;
-  width: 78px;
-  height: 36px;
-  border-radius: 0.25rem;
-  background-color: #ED685C;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  clip-path: polygon(100% 0, 90% 50%, 100% 100%, 0 100%, 0 0);
-} */
-
-.new-trick__img img,
-.best__img img {
-  width: 100%;
-}
-
-.best__img {
-  margin-bottom: 1rem;
-}
-
-.best::before {
-  content: "top of the day";
-  display: block;
-  position: absolute;
-  top: 0.5625rem;
-  left: 0;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: rgba(145, 160, 182, 1);
-}
-
-.best__img img,
-.interesting__img img {
-  width: 100%;
-  border-radius: 1rem;
-}
-
-.interesting::before {
-  content: "interesting";
-  display: block;
-  position: absolute;
-  top: 0.5625rem;
-  left: 0;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: rgba(145, 160, 182, 1);
-}
-
-.best .tricks__second {
-  margin-top: 1.4375rem;
-}
-
-.offer {
-  background-color: rgba(4, 191, 148, 0.16);
-  padding: 1rem;
-  border-radius: 1rem;
-}
-
-.offer__button {
-  padding: 0.5rem;
-  margin-top: 1rem;
-  background-color: rgba(4, 191, 148, 1);
-  width: 100%;
-  border: none;
-  border-radius: 0.5rem;
-  text-align: center;
-  font-size: 1rem;
-  text-transform: capitalize;
-  color: rgba(255, 255, 255, 1);
-}
-
-.footer {
-  padding: 96px 16px 16px;
-  text-align: center;
-}
-
-.footer__policy,
-.footer__copyright {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  color: rgba(145, 160, 182, 1);
-}
-
-.footer__copyright {
-  margin-top: 1.5rem;
-}
-
-.footer__copyright span {
-  display: block;
 }
