@@ -1,3 +1,6 @@
+
+/* DESKTOPS */
+
 @media screen and (min-width: 1150px) {
   /** Header **/
   .header {
@@ -49,6 +52,10 @@
   /** Main **/
   .container .main {
     padding: 0;
+  }
+
+  .container .go-up {
+    display: block;
   }
   
   /** Motion **/
@@ -228,5 +235,114 @@
 @media screen and (min-width: 1441px) {
   body {
     background-color: #E5E5E5;
+  }
+}
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) and (max-width: 1149px) {
+  /** Header **/
+  .header {
+    padding: 1.25rem 1rem 1.25rem 1.6rem;
+  }
+
+  /** Main **/
+  .container .main {
+    padding: 0 50px;
+  }
+
+  /** Search **/
+  .search {
+    margin: 1.5rem 0 3.5rem;
+    padding: 2rem 0 2rem 2rem;
+    background: rgba(153, 225, 208, 1) url(../images/first-background.svg) no-repeat right bottom;
+    background-size: contain;
+  }
+
+  .search__input {
+    width: 35%;
+  }
+
+  /** New-product **/
+  .new-product {
+    margin-top: 0;
+    padding-bottom: 2rem;
+    display: flex;
+  }
+
+  .new-product__image,
+  .new-product__info {
+    width: 50%;
+  }
+
+  .new-product__image {
+    margin-right: 2rem;
+  }
+
+  .new-product__info .date {
+    font-size: 11px;
+  }
+
+  .new-product__info .date,
+  .new-product__info .title {
+    margin: 0;
+  }
+
+  .new-product__info .description {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  /** Top tricks **/
+  .top-tricks {
+    display: flex;
+    padding-bottom: 2rem;
+  }
+
+  .top-tricks__card {
+    width: 50%;
+  }
+
+  .top-tricks__card:first-child {
+    margin-right: 2rem;
+  }
+
+  /** Interesting **/
+  .interesting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .interesting__card {
+    width: 48%;
+    margin-bottom: 2rem;
+  }
+
+  /** Offer **/
+  .offer {
+    background: linear-gradient(90deg, #CFEDE6 7.49%, rgba(140, 222, 203, 0.832667) 100%);;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .offer__button {
+    width: 200px;
+  }
+
+  .offer__image {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(1.2rem, -0.6rem) rotate(-22deg);
+  }
+
+  .offer__title,
+  .offer__description {
+    z-index: 1;
+    position: relative;
   }
 }

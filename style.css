@@ -6,7 +6,7 @@
 @import "styles/interesting.css";
 @import "styles/offer.css";
 @import "styles/footer.css";
-@import "styles/desktop.css";
+@import "styles/media-queries.css";
 
 html {
   font-size: 16px;
@@ -36,10 +36,20 @@ a {
 }
 
 .main {
-  /* background-color: #F6F6F6; */
   margin: 0 auto;
   padding: 0 1rem;
   max-width: 1074px;
+}
+
+.go-up {
+  display: none;
+  position: fixed;
+  top: calc(100vh - 100px);
+  right: 50px;
+  width: 64px;
+  height: 64px;
+  background: rgba(255, 255, 255, 1) url(../images/short_up.svg) no-repeat center;
+  border-radius: 16px 0px 0px 0px;
 }
 
 .date {
