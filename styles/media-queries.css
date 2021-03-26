@@ -248,7 +248,7 @@
 
   /** Main **/
   .container .main {
-    padding: 0 50px;
+    padding: 0 3.13rem;
   }
 
   /** Search **/
@@ -344,5 +344,11 @@
   .offer__description {
     z-index: 1;
     position: relative;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .container .main {
+    padding: 0 3.5rem;
   }
 }
