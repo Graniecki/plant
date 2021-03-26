@@ -45,8 +45,8 @@
   }
 
   .header__search:focus {
-    background-color: rgba(153, 225, 208, 1);
-    width: 50%;
+    background-color: rgb(185, 230, 219);
+    width: 100%;
   }
 
   /** Main **/

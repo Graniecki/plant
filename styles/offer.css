@@ -31,6 +31,20 @@
   font-weight: 500;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 1);
+
+  transition: background-color 500ms;
+}
+
+.offer__button:focus {
+  outline: 1px solid rgb(2, 100, 77, 1);
+}
+
+.offer__button:hover {
+  background-color: rgb(4, 175, 135, 1);
+}
+
+.offer__button:active {
+  background-color: rgb(3, 150, 116, 1);
 }
 
 .offer__image {

@@ -22,20 +22,30 @@
   height: 32px;
 }
 
-.header__search {
+.search-wrapper {
+  display: flex;
+  justify-content: flex-end;
   margin-right: 1rem;
+}
+
+.header__search {
   padding-right: 33px;
   border: 0;
   border-radius: 1rem;
   background: url(../images/header-search.svg) no-repeat right center;
+  outline: 0;
 
   transition: width 500ms;
+}
+
+.search-wrapper .header__search:focus {
+  width: 100%;
+  border: 1px solid rgb(2, 100, 77, 1);
 }
 
 .header__search:focus {
   padding-left: 10px;
   background-color: rgba(4, 191, 148, 0.16);
-  width: 70%;
 }
 
 .header__user,

@@ -28,10 +28,16 @@
   background: #FFFFFF url(../images/mini-search.svg) no-repeat right 0.5rem center;;
   padding: 0.625rem 1.9rem 0.625rem 1rem;
   width: 100%;
+  max-height: 56px;
   border: none;
   border-radius: 0.75rem;
   box-shadow: 0px 0.470434px 2.21381px rgba(0, 0, 0, 0.0196802);
   font-size: 0.875rem;
+  outline: 0;
+}
+
+.search__wrapper_input .search__input:focus {
+  border: 1px solid rgb(2, 100, 77, 1);
 }
 
 .search__input::placeholder {
