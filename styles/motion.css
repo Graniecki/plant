@@ -1,6 +1,5 @@
 .motion {
   padding: 1rem 1rem 1rem 0;
-  font-size: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
   text-transform: capitalize;
@@ -17,4 +16,9 @@
   height: 100%;
   background: url(../images/arrow-left.svg) no-repeat left 0.5rem center;
   color: rgba(145, 160, 182, 1);
+  font-weight: 500;
+}
+
+.motion__item_blog {
+  display: none;
 }
