@@ -1,0 +1,169 @@
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /** Header **/
+  .header {
+    padding: 1.25rem 1.6rem;
+  }
+
+  /** Main **/
+  .container .main {
+    padding: 0;
+  }
+  
+  /** Motion **/
+  .motion {
+    padding: 1.5rem 1.5rem 1.5rem 0;
+  }
+
+  /** Search **/
+  .search {
+    background: rgba(153, 225, 208, 1) url(../images/first-background.svg) no-repeat right bottom;
+    margin: 1.5rem 0 3.5rem;
+    padding: 44px 0 56px 56px;
+  }
+
+  .search__title {
+    padding-left: 5px;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: rgba(55, 202, 168, 1);
+  }
+
+  .search__description {
+    margin: 1.25rem 0 1rem 0;
+  }
+
+  .search__input {
+    background-position: right 1rem center;
+    padding: 1.1rem 2.5rem 1.1rem 1.1rem;
+    max-width: 522px;
+    font-size: 1rem;
+  }
+  
+  .search__input::placeholder {
+    font-size: 1rem;
+  }
+
+  /** New-product **/
+  .new-product {
+    margin-top: 0;
+    padding-bottom: 3rem;
+    display: flex;
+  }
+
+  .new-product__image,
+  .new-product__info {
+    width: 50%;
+  }
+
+  .new-product__image {
+    margin-right: 2rem;
+  }
+
+  .new-product__info .date {
+    margin: 0;
+  }
+
+  .new-product__info .title {
+    margin: 0.625rem 0 1.5rem;
+    font-size: 3rem;
+    line-height: 4.2rem;
+  }
+
+  /** Top tricks **/
+  .top-tricks {
+    margin-top: 1.18rem;
+    padding-bottom: 3rem;
+    display: flex;
+  }
+
+  .top-tricks__card {
+    width: 50%;
+  }
+
+  .top-tricks__card:first-child {
+    margin-right: 2rem;
+  }
+
+  .top-tricks__image img {
+    border-radius: 0;
+  }
+
+  /** Interesting **/
+  .interesting {
+    margin-top: 1.31rem;
+    padding-bottom: 1.19rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .interesting__card {
+    max-width: 336px;
+    margin-bottom: 2.2rem;
+  }
+
+  .interesting__image img {
+    border-radius: 0;
+  }
+
+  /** Offer **/
+  .offer {
+    background: linear-gradient(90deg, #CFEDE6 7.49%, rgba(140, 222, 203, 0.832667) 100%);;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    position: relative;
+  }
+
+  .offer__title {
+    margin-top: 0.9rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+  }
+
+  .offer__description {
+    margin: 0.56rem 0 1.5rem 0;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .offer__button {
+    width: 156px;
+  }
+
+  .offer__image {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(1.2rem, -0.6rem);
+  }
+
+  /** Footer **/
+  .footer {
+    padding: 85px 0 1rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__point {
+    margin-bottom: 0;
+    margin-right: 3rem;
+  }
+
+  .footer__point,
+  .footer__copyright span {
+    display: inline-block;
+  }
+
+  .footer__copyright span,
+  .footer__policy .footer__point a {
+    font-size: 0.88rem;
+  }
+
+  .footer__copyright {
+    margin: 0;
+  }
+}

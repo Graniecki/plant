@@ -6,6 +6,7 @@
 @import "styles/interesting.css";
 @import "styles/offer.css";
 @import "styles/footer.css";
+@import "styles/desktop.css";
 
 html {
   font-size: 16px;
@@ -29,13 +30,16 @@ a {
 }
 
 .container {
+  background-color: #F6F6F6;
   margin: 0 auto;
   max-width: 1440px;
 }
 
 .main {
-  background-color: #F6F6F6;
+  /* background-color: #F6F6F6; */
+  margin: 0 auto;
   padding: 0 1rem;
+  max-width: 1074px;
 }
 
 .date {

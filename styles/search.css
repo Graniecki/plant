@@ -20,12 +20,8 @@
   color: rgba(36, 36, 36, 1);
 }
 
-.search__description .semi-bold {
-  font-weight: 700;
-}
-
 .search__description .bold {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .search__input {
@@ -35,6 +31,7 @@
   border: none;
   border-radius: 0.75rem;
   box-shadow: 0px 0.470434px 2.21381px rgba(0, 0, 0, 0.0196802);
+  font-size: 0.875rem;
 }
 
 .search__input::placeholder {
