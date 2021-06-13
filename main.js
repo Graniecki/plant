@@ -7,3 +7,4 @@ goUp.addEventListener('click', () => {
   header.scrollIntoView({ behavior: "smooth" });
 });
 
+console.log(123);
