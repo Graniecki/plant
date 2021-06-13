@@ -6,5 +6,3 @@ const goUp = document.querySelector('.go-up');
 goUp.addEventListener('click', () => {
   header.scrollIntoView({ behavior: "smooth" });
 });
-
-console.log(123);
